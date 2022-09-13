@@ -40,7 +40,7 @@ function MyProjects() {
             <div className="countDesc">
             <h4 className="projectsTitle">Countdown</h4>
             <h6 className="projectDesc">Do you know how many days are left until Christmas? And Easter? Ok, but i am sure you don't know this countdown.</h6>
-            <a href="https://github.com/andreatricerri/countdown" target='_blank' class="myButtonProjects">Hey, check here!</a>
+            <a href="https://countdown-timer-fkmpuehe3-andreatricerri1.vercel.app" target='_blank' class="myButtonProjects">Hey, check here!</a>
             </div>
             </div>
         </section>
