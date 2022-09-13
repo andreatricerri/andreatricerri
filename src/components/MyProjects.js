@@ -11,7 +11,7 @@ function MyProjects() {
             <div className="quizDesc">
             <h4 className="projectsTitle">Quiz</h4>
             <h6 className="projectDesc">Let's see how much you know about me, you can win a skiing holiday in the Maldives. I am sure you cannot do 100%.</h6>
-            <a href="https://quiz-dp5c5ibej-andreatricerri1.vercel.app" target='_blank' class="myButtonProjects" >Go to the Quiz</a>
+            <a href="https://andreatricerri.github.io/quizApp" target='_blank' class="myButtonProjects" >Go to the Quiz</a>
             </div>
             </div>
             <div className='calculator col-lg-6'>
