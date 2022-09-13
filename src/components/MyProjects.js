@@ -31,7 +31,7 @@ function MyProjects() {
             <div className="pwDesc">
             <h4 className="projectsTitle">Password Generator</h4>
             <h6 className="projectDesc">Your password is no longer secure. Luckily you can now change it in just few clicks. </h6>
-            <a href="https://github.com/andreatricerri/passwordGenerator" target='_blank' class="myButtonProjects">Change your PW</a>
+            <a href="password-generator-cl2y4zhfd-andreatricerri1.vercel.app" target='_blank' class="myButtonProjects">Change your PW</a>
             </div>
             </div>
             <div className='countdown col-lg-6'>
