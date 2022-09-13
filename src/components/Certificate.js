@@ -9,7 +9,7 @@ function Certificate() {
                 <img className='codecademyLogo' src='https://upload.wikimedia.org/wikipedia/commons/8/87/Codecademy_logo.png'/>
             <div className='codacademyCertificate'>
                 <ul className='listCodecademy'>
-                <img alt='JavaScript' className='certificateItems big' src='./images/JavaScript.jpg'/>
+                <img alt='JavaScript' className='certificateItems big' src='./images/javascript.jpg'/>
                 <img alt='Intermediate CSS' className='certificateItems big' src='./images/intCSS.jpg'/>
                 <img alt='CSS' className='certificateItems big' src='./images/CSS.jpg'/>
                 <img alt='HTML' className='certificateItems big' src='./images/HTML.jpg'/>
