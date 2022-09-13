@@ -34,7 +34,7 @@ function MyProjects() {
             <a href="https://password-generator-5n1f4o78l-andreatricerri1.vercel.app" target='_blank' class="myButtonProjects">Change your PW</a>
             </div>
             </div>
-            <div className='countdown col-lg-6'>
+            <div className='countdownTimer col-lg-6'>
             <div className='countImg col-5'>
             </div>
             <div className="countDesc">
