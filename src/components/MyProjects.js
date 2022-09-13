@@ -20,7 +20,7 @@ function MyProjects() {
             <div className="calcDesc">
             <h4 className="projectsTitle">Calculator</h4>
             <h6 className="projectDesc">Everyone needs a calculator at hand, we both know it. I will lend you mine: here it is!</h6>
-            <a href="https://calculator-i0xtky3z0-andreatricerri1.vercel.app" target='_blank' class="myButtonProjects">Your Calculator</a>
+            <a href="https://andreatricerri.github.io/calculator" target='_blank' class="myButtonProjects">Your Calculator</a>
             </div>
             </div>
         </section>
