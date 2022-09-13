@@ -216,13 +216,6 @@ img.udemyLogo {
     margin-left: 100px;
 }
 
-.bigP1:hover {
-    position: relative;
-    transform:  scale(1.2);
-    transition: all 1s ease-in-out;
-    border-radius: 1rem;
-}
-
 .curriculumTitle {
     font-weight: bolder;
     font-size: 6.25rem;
