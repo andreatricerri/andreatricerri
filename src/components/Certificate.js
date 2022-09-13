@@ -10,10 +10,10 @@ function Certificate() {
             <div className='codacademyCertificate'>
                 <ul className='listCodecademy'>
                 <img alt='JavaScript' className='certificateItems big' src='./images/javascript.jpg'/>
-                <img alt='Intermediate CSS' className='certificateItems big' src='./images/intCSS.jpg'/>
-                <img alt='CSS' className='certificateItems big' src='./images/CSS.jpg'/>
-                <img alt='HTML' className='certificateItems big' src='./images/HTML.jpg'/>
-                <img alt='NameCheap' className='certificateItems big' src='./images/NameCheap.jpg'/>
+                <img alt='Intermediate CSS' className='certificateItems big' src='./images/intcss.jpg'/>
+                <img alt='CSS' className='certificateItems big' src='./images/css.jpg'/>
+                <img alt='HTML' className='certificateItems big' src='./images/html.jpg'/>
+                <img alt='NameCheap' className='certificateItems big' src='./images/namecheap.jpg'/>
                 </ul>
             </div>
             </div>
