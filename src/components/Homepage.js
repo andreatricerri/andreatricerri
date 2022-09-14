@@ -2,7 +2,6 @@ import React from "react";
 import Certificate from "./Certificate";
 import MyProjects from "./MyProjects";
 
-
 function Homepage(props){
 	return(
 <div>
