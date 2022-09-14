@@ -19,7 +19,7 @@ function App() {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+      <ul class="navbar-nav">
         <li class="nav-item">
         <Nav.Link as={ Link } to="/myprojects" id="myProjectPage" aria-current="page">My Projects</Nav.Link>
         </li>
