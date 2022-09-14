@@ -1,5 +1,6 @@
 body {
     background-image: url(https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80) ;
+    background-repeat: no-repeat;
     width: auto;
     background-size: cover;
     height: 100%;
@@ -7,24 +8,43 @@ body {
 }
 
 .navbar {
-    width: 100%;
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 610px) {
+    .collapse {
+        font-size: 0.70rem;
+        text-align: center;
+        
+    }
 }
 
 .nameTitle {
     font-weight: bolder;
     font-size: 6.25rem;
     text-align: center;
-    margin-top: 25px;
     margin-bottom: 25px;
     border: rgb(255, 255, 255) solid 2px;
     color: white;
     font-family: 'Tinos', serif;
 }
 
+@media screen and (max-width: 1024px) {
+    .nameTitle {
+        font-size: 4rem;
+    }
+}
+
 #home {
     color: white;
     font-weight: bold;
+}
+
+@media screen and (max-width: 610px) {
+    #home {
+        font-size: 0.70rem;
+        text-align: center;
+    }
 }
 
 .homepageImage {
@@ -41,6 +61,13 @@ body {
 
 .intro {
     margin-top: 1rem; 
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        font-size: 23px;
+    }
 }
 
 .leftIntro {
@@ -73,6 +100,19 @@ body {
     margin-left: 2.5rem;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .homepage {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homepage {
+        height: auto;
+    }
+}
+
 .homepageDescription {
     width: auto;
     padding: 5px;
@@ -94,6 +134,13 @@ body {
     color: white;
     font-family: 'Tinos', serif;
  }
+
+ @media screen and (max-width: 850px) {
+    .contactme {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+}
 
  .contactdetails {
      position: relative;
@@ -141,7 +188,6 @@ body {
     font-family: 'Tinos', serif;
     color: rgb(13, 66, 146);
     font-weight: bold;
-
 }
 
 .contactdetails img {
@@ -173,24 +219,66 @@ body {
       font-weight: bolder;
       font-size: 6.25rem;
       text-align: center;
-      margin-top: 25px;
       margin-bottom: 25px;
       font-family: 'Tinos', serif;
       color: white;
       border: rgb(255, 255, 255) solid 2px;
 }
 
-img.codecademyLogo {
+@media screen and (max-width: 800px) {
+    .certificateTitle {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .certificateTitle {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .certificateItems {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .big {
+        width: 7rem;
+        height: 7rem;
+    }
+}
+
+.codecademyLogo {
       height: 7.82rem;
       width: 25rem;
       margin-left: 100px;
 }
 
-img.udemyLogo {
+@media screen and (max-width: 550px) {
+    .codecademyLogo {
+        width: 20rem;
+        height: 6rem;
+        margin-left: 40px;
+    }
+}
+
+.udemyLogo {
     height: 7.82rem;
     width: 25rem;
     margin-left: 100px;
 }
+
+@media screen and (max-width: 550px) {
+    .udemyLogo {
+        width: 20rem;
+        height: 6rem;
+        margin-left: 40px;
+    }
+}
+
 .codacademyCertificate {
     display: flex;
     flex-flow: column wrap;
@@ -210,10 +298,16 @@ img.udemyLogo {
     border-radius: 1rem;
 }
 
-.cvPages {
+.cvPage {
     width: 80%;
     height: auto;
     margin-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .cvPage {
+        margin-left: 50px;
+    }
 }
 
 .curriculumTitle {
@@ -225,6 +319,18 @@ img.udemyLogo {
     border: rgb(255, 255, 255) solid 2px;
     color: white;
     font-family: 'Tinos', serif;
+}
+
+@media screen and (max-width: 750px) {
+    .curriculumTitle {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .curriculumTitle {
+        font-size: 3rem;
+    }
 }
 
 .certificates {
@@ -285,6 +391,24 @@ img.udemyLogo {
     font-family: 'Tinos', serif;
 }
 
+@media screen and (max-width: 1024px) {
+    .myProjectsTitle {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #fontSize {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #fontSize {
+        font-size: 0.75rem;
+    }
+}
+
 .projectsColor {
     color: black;
 }
@@ -311,6 +435,9 @@ img.udemyLogo {
     height: 13.75rem;
     background-image: url(https://static.vecteezy.com/system/resources/previews/003/206/208/original/quiz-time-neon-signs-style-text-free-vector.jpg) ;
     background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     float: left;
     padding: 10px;
     margin-left: 2rem;
@@ -322,6 +449,9 @@ img.udemyLogo {
     height: 13.75rem;
     background-image: url(https://thumbs.dreamstime.com/b/sfondo-numeri-sparsi-per-dei-lo-o-l-utilizzo-con-layout-di-progettazione-la-creazione-contenuti-166001352.jpg) ;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     float: left;
     padding: 20px;
     margin-left: 2rem;
@@ -332,6 +462,9 @@ img.udemyLogo {
     height: 13.75rem;
     background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/05/05/16517403690559.jpg) ;
     background-size: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     float: left;
     padding: 20px;
     margin-left: 2rem;
@@ -342,6 +475,9 @@ img.udemyLogo {
     height: 13.75rem;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrL6-jXtCyt-gRHrzLowFH3hRm0uue_dOQoQ&usqp=CAU) ;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     float: left;
     padding: 20px;
     margin-left: 2rem;
@@ -414,6 +550,19 @@ img.udemyLogo {
     margin-left: 35px;
     margin-top: 5px;
 }
+
+@media screen and (max-width: 850px) {
+    .myButtonProjects {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .myButtonProjects {
+        font-size: 0.5rem;
+    }
+}
+
 .myButtonProjects:hover {
 	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
 	background-color:#77a809;
@@ -428,6 +577,13 @@ img.udemyLogo {
     height: 15.5rem;
     margin-left: 70px;
     margin-top: 40px;
+}
+
+@media screen and (max-width: 850px) {
+    .certificateItems {
+        width: 250px;
+        height: 125px;
+    }
 }
 
 .nav-menu {
@@ -453,12 +609,4 @@ img.udemyLogo {
     background-color: #dbf2ff;
     cursor: pointer;
     font-family: 'Tinos', serif;
-}
-
-.navbar-brand:hover {
-    color: red;
-}
-
-.nav-link:hover {
-    color: red;
 }
